@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter" label="Options" addfieldpath="components/com_toes/models/fields">
+        <field name="search" type="text" label="COM_TOES_FILTER_SEARCH_DESC" hint="JSEARCH_FILTER"/>
+
+        <field name="affiliation" type="affiliationlist" label="COM_TOES_AFFILIATION" onchange="this.form.submit();"/>
+    </fields>
+</form>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component">
+		<field
+			name="hide_matrix_printing_for_non_admins"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_MATRIX_PRINTING_FOR_NON_ADMINS_LABEL"
+			description="COM_TOES_MATRIX_PRINTING_FOR_NON_ADMINS_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="hide_color_helper_for_non_admins"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_COLOR_HELPER_FOR_NON_ADMINS_LABEL"
+			description="COM_TOES_COLOR_HELPER_FOR_NON_ADMINS_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="use_lf_instead_ff_for_printing"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_USE_LF_INSTEAD_FF"
+			description="COM_TOES_USE_LF_INSTEAD_FF_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+		
+		<field
+			name="show_add_entry_for_admin"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_SHOW_ADD_ENTRY_FOR_ADMIN"
+			description="COM_TOES_SHOW_ADD_ENTRY_FOR_ADMIN_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+		
+		<field
+			name="show_grayed_report_options_for_admin"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_SHOW_GRAYED_REPORT_OPTIONS_FOR_ADMIN"
+			description="COM_TOES_SHOW_GRAYED_REPORT_OPTIONS_FOR_ADMIN_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+		
+		<field
+			name="show_cat_count_for_admin"
+			type="radio"
+			default="0"
+			class="btn-group btn-group-yesno"
+			label="COM_TOES_SHOW_CAT_COUNT_FOR_ADMIN"
+			description="COM_TOES_SHOW_CAT_COUNT_FOR_ADMIN_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+		
+		<field
+			name="show_cat_search_for_admin"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_DISPLAY_CAT_SEARCH_FOR_ADMIN"
+			description="COM_TOES_DISPLAY_CAT_SEARCH_FOR_ADMIN_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="show_cat_search_for_cateditor"
+			type="radio"
+			default="0"
+			class="btn-group btn-group-yesno"
+			label="COM_TOES_DISPLAY_CAT_SEARCH_FOR_CAT_EDITOR"
+			description="COM_TOES_DISPLAY_CAT_SEARCH_FOR_CAT_EDITOR_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="offer_tripple_copies_for_judge_book"
+			type="radio"
+			default="0"
+			class="btn-group btn-group-yesno"
+			label="COM_TOES_SHOW_TRIPLE_PAGE_PRINTING_OPTION"
+			description="COM_TOES_SHOW_TRIPLE_PAGE_PRINTING_OPTION_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="block_catalog_for_debt_clubs"
+			type="radio"
+			default="0"
+			class="btn-group btn-group-yesno"
+			label="COM_TOES_SHOW_DISABLE_CATALOG_FEATURE_FOR_BAD_DEBT_CLUBS"
+			description="COM_TOES_SHOW_DISABLE_CATALOG_FEATURE_FOR_BAD_DEBT_CLUBS_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="tica_eo_acc_dept_email"
+			type="input"
+			default=""
+			size="40"
+			label="COM_TICA_EXECUTIVE_OFFICE_ACCOUNTING_EMAIL"
+			description="COM_TICA_EXECUTIVE_OFFICE_ACCOUNTING_EMAIL_DESC">
+		</field>
+		<field
+			name="breed_title_color"
+			type="input"
+			default="#000000"
+			size="40"
+			label="COM_TICA_CATALOG_BREED_TITLE_COLOR"
+			description="COM_TICA_CATALOG_BREED_TITLE_COLOR_DESC">
+		</field>
+		<field
+			name="division_title_color"
+			type="input"
+			default="#000000"
+			size="40"
+			label="COM_TICA_CATALOG_DIVISION_TITLE_COLOR"
+			description="COM_TICA_CATALOG_DIVISION_TITLE_COLOR_DESC">
+		</field>
+		<field
+			name="bod_color"
+			type="input"
+			default="#000000"
+			size="40"
+			label="COM_TICA_CATALOG_BOD_COLOR"
+			description="COM_TICA_CATALOG_BOD_COLOR_DESC">
+		</field>
+		<field
+			name="bob_color"
+			type="input"
+			default="#000000"
+			size="40"
+			label="COM_TICA_CATALOG_BOB_COLOR"
+			description="COM_TICA_CATALOG_BOB_COLOR_DESC">
+		</field>
+
+		<field
+			name="send_bcc_emails"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_SEND_BCC_EMAILS"
+			description="COM_TOES_SEND_BCC_EMAILS_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="bcc_email"
+			type="input"
+			default=""
+			size="40"
+			label="COM_TOES_BCC_EMAIL"
+			description="COM_TOES_BCC_EMAIL_DESC">
+		</field>
+
+		<field
+			name="use_logo_for_pdf"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="1"
+			label="COM_TOES_USE_LOGO_IN_SHOW_DOCUMENTATION"
+			description="COM_TOES_USE_LOGO_IN_SHOW_DOCUMENTATION_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+		<field
+			name="irs_miles"
+			type="input"
+			default="0.55"
+			size="40"
+			label="COM_TOES_JUDGES_IRS_MILES"
+			description="COM_TOES_JUDGES_IRS_MILES_DESC">
+		</field>
+
+		<field
+			name="irs_km"
+			type="input"
+			default="0.34"
+			size="40"
+			label="COM_TOES_JUDGES_IRS_KM"
+			description="COM_TOES_JUDGES_IRS_KM_DESC">
+		</field>
+
+		<field
+			name="show_miles"
+			type="input"
+			default=""
+			size="40"
+			label="COM_TOES_SHOW_VIOLATION_IN_MILES"
+			description="COM_TOES_SHOW_VIOLATION_IN_MILES">
+		</field>
+		<field name="map_key" type="text" label="COM_TOES_GOOGLE_MAP_KEY" description="COM_TOES_GOOGLE_MAP_KEY_DESC"/>
+		<field name="tica_organization_document_type_ids" type="text" label="COM_TOES_TICA_ORGANIZATION_DOCUMENT_TYPE_IDS" description="COM_TOES_TICA_ORGANIZATION_DOCUMENT_TYPE_IDS_DESC"/>
+		<field name="tica_eo_access_user_group_ids" type="usergroup" multiple="true" label="COM_TOES_EXECUTIVE_OFFICE_VIEW_ACCESS_GROUP" description="COM_TOES_EXECUTIVE_OFFICE_VIEW_ACCESS_GROUP"/>
+		<field name="allowed_document_type_ext" type="text" label="COM_TOES_ALLOWED_FILE_TYPES_FOR_SHOW_ELIGIBILITY_DOCUMENTS" description="COM_TOES_ALLOWED_FILE_TYPES_FOR_SHOW_ELIGIBILITY_DOCUMENTS"/>
+		<field
+			name="email_id_send_show_list_tobe_invoiced"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TOES_EMAIL_ADDRESS_WHERE_TO_SEND_THE_LIST_OF_SHOWS_TO_BE_INVOICED"
+			description="COM_TOES_EMAIL_ADDRESS_WHERE_TO_SEND_THE_LIST_OF_SHOWS_TO_BE_INVOICED_DESC">
+		</field>
+	
+	</fieldset>
+
+	<fieldset name="sync" label="COM_TOES_CONFIG_SYNC_TAB_LABEL" description="COM_TOES_CONFIG_SYNC_TAB_DESC">
+		<field 
+			name="sync_db" 
+			type="radio" 
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TOES_SHOW_SYNC_OPTIONS"
+			description="COM_TOES_SHOW_SYNC_OPTIONS_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+		<field
+			name="prod_db_host"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PRODUCTION_DATABASE_HOST"
+			description="COM_TICA_PRODUCTION_DATABASE_HOST_DESC">
+		</field>
+		<field
+			name="prod_db_name"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PRODUCTION_DATABASE_NAME"
+			description="COM_TICA_PRODUCTION_DATABASE_NAME_DESC">
+		</field>
+		<field
+			name="prod_db_user"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PRODUCTION_DATABASE_USERNAME"
+			description="COM_TICA_PRODUCTION_DATABASE_USERNAME_DESC">
+		</field>
+		<field
+			name="prod_db_pass"
+			type="password"
+			default=""
+			size="60"
+			label="COM_TICA_PRODUCTION_DATABASE_PASSWORD"
+			description="COM_TICA_PRODUCTION_DATABASE_PASSWORD_DESC">
+		</field>
+		<field
+			name="prod_db_prefix"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PRODUCTION_DATABASE_PREFIX"
+			description="COM_TICA_PRODUCTION_DATABASE_PREFIX_DESC">
+		</field>
+		<field
+			name="test_db_host"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_TEST_DATABASE_HOST"
+			description="COM_TICA_TEST_DATABASE_HOST_DESC">
+		</field>
+		<field
+			name="test_db_name"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_TEST_DATABASE_NAME"
+			description="COM_TICA_TEST_DATABASE_NAME_DESC">
+		</field>
+		<field
+			name="test_db_user"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_TEST_DATABASE_USERNAME"
+			description="COM_TICA_TEST_DATABASE_USERNAME_DESC">
+		</field>
+		<field
+			name="test_db_pass"
+			type="password"
+			default=""
+			size="60"
+			label="COM_TICA_TEST_DATABASE_PASSWORD"
+			description="COM_TICA_TEST_DATABASE_PASSWORD_DESC">
+		</field>
+		<field
+			name="test_db_prefix"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_TEST_DATABASE_PREFIX"
+			description="COM_TICA_TEST_DATABASE_PREFIX_DESC">
+		</field>
+		<field
+			name="admin_users_to_skip"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_ADMIN_USERS_TO_SKIP"
+			description="COM_TICA_ADMIN_USERS_TO_SKIP_DESC">
+		</field>
+	</fieldset>
+
+	<fieldset name="paypal" label="COM_TOES_CONFIG_PAYPAL_TAB_LABEL" description="COM_TOES_CONFIG_PAYPAL_TAB_LABEL_DESC">
+		<field
+			name="paypal_first_late_fee"
+			type="input"
+			default="20"
+			size="60"
+			label="COM_TOES_PAYPAL_FIRST_LATE_FEE"
+			description="COM_TOES_PAYPAL_FIRST_LATE_FEE_DESC">
+		</field>
+		<field
+			name="paypal_second_late_fee"
+			type="input"
+			default="20"
+			size="60"
+			label="COM_TOES_PAYPAL_SECOND_LATE_FEE"
+			description="COM_TOES_PAYPAL_SECOND_LATE_FEE_DESC">
+		</field>
+		<field 
+			name="paypal_currency"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TICA_PAYPAL_CURRENCY"
+			description="COM_TICA_PAYPAL_CURRENCY_DESC">
+			<option	value="EUR">EUR</option>
+			<option	value="USD">USD</option>
+		</field>
+		<field 
+			name="paypal_sandbox"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_TICA_PAYPAL_SANDBOX"
+			description="COM_TICA_PAYPAL_SANDBOX_DESC">
+			<option
+				value="0">JNO
+			</option>
+			<option
+				value="1">JYES
+			</option>
+		</field>
+
+		<field
+			name="paypal_sandbox_client_id"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_SANDBOX_CLIENT_ID"
+			description="COM_TICA_PAYPAL_SANDBOX_CLIENT_ID_DESC">
+		</field>
+		<field
+			name="paypal_sandbox_secret"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_SANDBOX_SECRET"
+			description="COM_TICA_PAYPAL_SANDBOX_SECRET_DESC">
+		</field>
+		<field
+			name="paypal_sandbox_merchant_email"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_SANDBOX_MERCHANT_EMAIL"
+			description="COM_TICA_PAYPAL_SANDBOX_MERCHANT_EMAIL_DESC">
+		</field>
+		<field
+			name="paypal_sandbox_customer_email"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_SANDBOX_CUSTOMER_EMAIL"
+			description="COM_TICA_PAYPAL_SANDBOX_CUSTOMER_EMAIL_DESC">
+		</field>
+
+		<field
+			name="paypal_client_id"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_CLIENT_ID"
+			description="COM_TICA_PAYPAL_CLIENT_ID_DESC">
+		</field>
+		<field
+			name="paypal_secret"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_SECRET"
+			description="COM_TICA_PAYPAL_SECRET_DESC">
+		</field>
+		<field
+			name="paypal_merchant_email"
+			type="input"
+			default=""
+			size="60"
+			label="COM_TICA_PAYPAL_MERCHANT_EMAIL"
+			description="COM_TICA_PAYPAL_MERCHANT_EMAIL_DESC">
+		</field>
+		
+		
+	</fieldset>
+
+
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field 
+			name="rules" 
+			type="rules" 
+			label="JCONFIG_PERMISSIONS_LABEL" 
+			class="inputbox" 
+			filter="rules" 
+			validate="rules" 
+			component="com_toes" 
+			section="component" />
+	</fieldset>
+</config>

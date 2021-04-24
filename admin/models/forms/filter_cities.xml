@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter">
+		<field
+			name="search"
+			type="text"
+			label="COM_TOES_SELECT_COUNTRY"
+			description="COM_TOES_SELECT_COUNTRY_DESC"
+			hint="JSEARCH_FILTER"
+		/>
+		
+		<field
+			name="country_id"
+			type="countries"
+			label="COM_TOES_SELECT_COUNTRY"
+			description="COM_TOES_SELECT_COUNTRY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">COM_TOES_SELECT_COUNTRY</option>
+		</field>
+		<field
+			name="state_id"
+			type="states"
+			label="COM_TOES_SELECT_STATE"
+			description="COM_TOES_SELECT_STATE_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">COM_TOES_SELECT_STATE</option>
+		</field>
+	</fields>
+	<fields name="list">
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="25"
+			label="LIMIT"
+			description="LIMIT"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+</form>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="formfields" label="COM_DOWNLOAD_PRODUCT"  addfieldpath="/components/com_toes/models/fields">
+
+	<field name="recognized_registration_organization_id" type="hidden"/>
+
+	<field 	name="recognized_registration_organization_affiliation" type="affiliationlist" label="COM_TOES_REGISTRATION_ORGANIZATION_AFFILIATION_LABEL" 
+	description="COM_TOES_REGISTRATION_ORGANIZATION_AFFILIATION_DESC"	class="inputbox"  required="true"/> 
+	<field 	name="recognized_registration_organization_name" type="text" label="COM_TOES_REGISTRATION_ORGANIZATION_NAME_LABEL" 
+	description="COM_TOES_REGISTRATION_ORGANIZATION_NAME_DESC"	class="inputbox" size="40" required="true"/>
+	
+	<field 	name="recognized_registration_organization_abbreviation" type="text" label="COM_TOES_REGISTRATION_ORGANIZATION_ABBREVIATION_LABEL" 
+	description="COM_TOES_REGISTRATION_ORGANIZATION_ABBREVIATION_DESC"	class="inputbox" size="40" required="true"/>
+	</fieldset>
+  
+</form>

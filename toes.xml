@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+		<name>COM_TOES</name>
+		<author>SPIDERWEB</author>
+		<creationDate>April 2016</creationDate>
+		<copyright>(C) 2009 - 2016 Open Source Matters. All rights reserved.</copyright>
+		<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+		<authorEmail>rahul.ghorpade@gmail.com</authorEmail>
+		<authorUrl>www.joomla.org</authorUrl>
+		<version>2.0.0</version>
+		<description>COM_TOES_XML_DESCRIPTION</description>
+
+	<install> <!-- Runs on install -->
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql folder="admin">
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+	<!-- Public front end files -->
+	<files folder="site">
+		<filename>toes.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<filename>index.html</filename>
+		
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>pdflibs</folder>
+		<folder>views</folder>
+	</files>
+
+	<!-- Front end translation files -->
+	<languages folder="site/language">
+		<language tag="de-DE">de-DE/de-DE.com_toes.ini</language>
+		<language tag="en-GB">en-GB/en-GB.com_toes.ini</language>
+		<language tag="es-ES">es-ES/es-ES.com_toes.ini</language>
+		<language tag="fi-FI">fi-FI/fi-FI.com_toes.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.com_toes.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.com_toes.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.com_toes.ini</language>
+	</languages>
+	
+	<!-- Media files -->
+	<media destination="com_toes" folder="media">
+		<folder>images</folder>
+		<folder>logs</folder>
+		<folder>manual</folder>
+		<folder>PDF</folder>
+		<filename>index.html</filename>
+    </media>
+   
+	<!-- Administrator back-end section -->
+	<administration>
+		<!-- Administration menu -->
+		<menu view="toes">COM_TOES</menu>
+		<submenu>
+			<menu view="clubs" img="class:clubs">COM_TOES_CLUBS</menu>
+			<menu view="breeds" img="class:breeds">COM_TOES_BREEDS</menu>
+			<menu view="categories" img="class:categories">COM_TOES_CATEGORIES</menu>
+			<menu view="divisions" img="class:divisions">COM_TOES_DIVISIONS</menu>
+			<menu view="colors" img="class:colors">COM_TOES_COLORS</menu>
+			<menu view="cats" img="class:cats">COM_TOES_CATS</menu>
+			<menu view="genders" img="class:genders">COM_TOES_GENDERS</menu>
+			<menu view="judges" img="class:judges">COM_TOES_JUDGES</menu>
+			<menu view="venues" img="class:venues">COM_TOES_VENUES</menu>
+		</submenu>
+
+		<!-- Back-end files -->
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>toes.php</filename>
+			<filename>index.html</filename>
+			
+      		<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+
+		<!-- Back-end translation files -->
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_toes.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_toes.sys.ini</language>
+		</languages>
+	</administration>
+
+</extension>

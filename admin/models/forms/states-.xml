@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<field name="id" 
+		type="text" 
+		default="0" 
+		label="JGLOBAL_FIELD_ID_LABEL" 
+		description ="JGLOBAL_FIELD_ID_DESC" 
+		class="readonly" 
+		readonly="true"/>
+
+	<field name="name" 
+		type="text" 
+		label="COM_TOES_STATE_NAME" 
+		description="COM_TOES_STATE_NAME_DESC" 
+		class="inputbox"
+		size="40" 
+		required="true"/>
+
+	<field name="country_id" 
+		type="hidden" 
+		label="COM_TOES_COUNTRY" 
+		description="COM_TOES_COUNTRY_DESC" 
+		required="true"/>
+</form>

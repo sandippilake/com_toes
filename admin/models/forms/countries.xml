@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<field name="id" 
+		type="text" 
+		default="0" 
+		label="JGLOBAL_FIELD_ID_LABEL" 
+		description ="JGLOBAL_FIELD_ID_DESC" 
+		class="readonly" 
+		readonly="true"/>
+
+	<field name="name" 
+		type="text" 
+		label="COM_TOES_COUNTRY_NAME" 
+		description="COM_TOES_COUNTRY_NAME_DESC" 
+		class="inputbox"
+		size="40" 
+		required="true"/>
+
+	<field name="alpha_2" 
+		type="text" 
+		label="COM_TOES_COUNTRY_TWO_ABBRIVATION" 
+		description="COM_TOES_COUNTRY_TWO_ABBRIVATION_DESC" 
+		class="inputbox"
+		size="40" 
+		required="true"/>
+
+	<field name="alpha_3" 
+		type="text" 
+		label="COM_TOES_COUNTRY_THREE_ABBRIVATION" 
+		description="COM_TOES_COUNTRY_THREE_ABBRIVATION_DESC" 
+		class="inputbox"
+		size="5" 
+		default=""
+		required="true" />
+	
+	
+	<field name="country_uses_states" 
+		type="radio" 
+		class="inputbox btn-group"
+		default="1" 
+		label="COM_TOES_COUNTRY_USES_STATE"
+		description="COM_TOES_COUNTRY_USES_STATE_DESC">
+		<option	value="1">JYES</option>
+		<option value="0">JNO</option>
+	</field>
+
+	<field name="competitive_region" 
+		type="hidden" 
+		label="COM_TOES_COMPETITIVE_REGION" 
+		description="COM_TOES_COMPETITIVE_REGION_DESC" 
+		class="inputbox"
+		size="40" 
+		required="true"/>
+</form>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<field	name="id" type="text" default="0" label="ID"
+		description ="ID" class="readonly" readonly="true"/>
+
+	<field name="user_id"  type="text" class="readonly" label="User"
+			description ="User Id" size="10" default="0"
+			readonly="true"  />
+
+	<field name="category_id" type="categoryedit"
+			label="JCATEGORY" description="JFIELD_CATEGORY_DESC"
+			class="inputbox" required="true" >
+	</field>
+	
+	<field name="name" type="text" label="JGLOBAL_TITLE"
+			description="JFIELD_TITLE_DESC" class="inputbox" size="30"
+			required="true" />
+
+	<field name="description" type="editor" class="inputbox"
+			label="Description" description="Task Description"
+			filter="JComponentHelper::filterText" buttons="true" />
+
+	<field name="start_date" type="calendar"
+			label="Start Date" description="Start Date"
+			class="inputbox" format="%Y-%m-%d" size="22"
+			filter="user_utc" />
+	
+	<field name="start_time" type="text" 
+		label="Start Time" format="%H:%M:%S" description="Start Time" class="inputbox" size="22"/>
+		
+	<field name="end_date" type="calendar"
+			label="End Date" description="End Date"
+			class="inputbox" format="%Y-%m-%d" size="22"
+			filter="user_utc" />
+	
+	<field name="end_time" type="text" label="End Time" format="%H:%M:%S" description="End Time" class="inputbox" size="22"/>
+		
+	<field name="due_date" type="calendar"
+			label="Due Date" description="Due Date"
+			class="inputbox" format="%Y-%m-%d" size="22"
+			filter="user_utc" />
+	
+	<field name="due_time" type="text" label="Due Time" format="%H:%M:%S" description="Due Time" class="inputbox" size="22"/>
+		
+	<field name="recurring" type="list"
+			label="Recurring"
+			description="Recurring"
+			default="0"	>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+	</field>
+		
+	<field name="status" type="list" label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC" class="inputbox"
+			filter="intval" size="1" default="1" >
+			<option value="-1">
+				CREATED</option>
+			<option value="0">
+				PENDING</option>
+			<option value="1">
+				COMPLETE</option>
+		</field>
+		
+	<field name="priority" type="priorityedit"
+			label="Priority" description="Task priority"
+			class="inputbox" required="true" >
+	</field>
+	
+	<field
+		name="language"
+		type="contentlanguage"
+		label="JFIELD_LANGUAGE_LABEL"
+		description="COM_CATEGORIES_FIELD_LANGUAGE_DESC"
+		class="inputbox">
+		<option value="*">JALL</option>
+	</field>
+
+	
+</form>

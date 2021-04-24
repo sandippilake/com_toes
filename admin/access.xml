@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_toes">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		
+		<action name="toes.add_show" title="COM_TOES_ACCESS_ADD_SHOW" description="COM_TOES_ACCESS_ADD_SHOW_DESC" />
+		<action name="toes.user_mgt" title="COM_TOES_ACCESS_USER_MGT" description="COM_TOES_ACCESS_USER_MGT_DESC" />
+		<action name="toes.manage_org_officials" title="COM_TOES_MANAGE_ORG_OFFICIALS" description="COM_TOES_MANAGE_ORG_OFFICIALS_DESC" />
+		<action name="toes.manage_club_officials" title="COM_TOES_MANAGE_CLUB_OFFICIALS" description="COM_TOES_MANAGE_CLUB_OFFICIALS_DESC" />
+		<action name="toes.manage_show_officials" title="COM_TOES_MANAGE_SHOW_OFFICIALS" description="COM_TOES_MANAGE_SHOW_OFFICIALS_DESC" />
+		<action name="toes.manage_organizations" title="COM_TOES_MANAGE_ORGANIZATIONS" description="COM_TOES_MANAGE_ORGANIZATIONS_DESC" />
+		
+		
+		<action name="toes.access_cat_count" title="COM_TOES_ACCESS_CAT_COUNT_BLOCK" description="COM_TOES_ACCESS_CAT_COUNT_BLOCK_DESC" />
+		<action name="toes.access_entry_block_of_not_opened_show" title="COM_TOES_ACCESS_ENTRY_BLOCK" description="COM_TOES_ACCESS_ENTRY_BLOCK_DESC" />
+		<action name="toes.access_sync_options" title="COM_TOES_ACCESS_SYNC_OPTIONS" description="COM_TOES_ACCESS_SYNC_OPTIONS_DESC" />
+	</section>
+</access>

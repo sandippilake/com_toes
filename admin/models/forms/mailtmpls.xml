@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<field name="tmpl_id" 
+		type="text" 
+		default="0" 
+		label="JGLOBAL_FIELD_ID_LABEL" 
+		description ="JGLOBAL_FIELD_ID_DESC" 
+		class="readonly" 
+		readonly="true"/>
+
+	<field name="tmpl_name" 
+		type="text" 
+		label="COM_TOES_MAIL_TMPL_NAME" 
+		description="COM_TOES_MAIL_TMPL_NAME_DESC" 
+		class="inputbox"
+		size="40" 
+		required="true"/>
+
+	<field name="action_name" 
+		type="text" 
+		label="COM_TOES_MAIL_TMPL_ACTION_NAME" 
+		description="COM_TOES_MAIL_TMPL_ACTION_NAME_DESC" 
+		class="inputbox"
+		size="40" 
+		required="true"/>
+
+	<field name="smtp_id" 
+		type="smtpaccounts" 
+		label="COM_TOES_SMTP_ACCOUNT" 
+		description="COM_TOES_SMTP_ACCOUNT_DESC" 
+		class="inputbox"
+		size="1" />
+
+	<field name="mail_subject" 
+		type="text" 
+		label="COM_TOES_MAIL_SUBJECT" 
+		description="COM_TOES_MAIL_SUBJECT_DESC" 
+		class="input-large-text"
+		size="80" 
+		required="true"/>
+
+	<field name="mail_body" 
+		type="editor" 
+		label="COM_TOES_MAIL_BODY" 
+		description="COM_TOES_MAIL_BODY_DESC" 
+		class="inputbox"
+		required="true" />
+
+</form>
